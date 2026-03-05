@@ -1,19 +1,73 @@
 :root {
-    --primary-color: #0b2545;
-    --secondary-color: #06152E;
-    --accent-color: #D4Af37;
-    --text-color: #FFFFFF;
-    --primary-light: #f5f7fa;
-    --text-dark-color: #0f172a;
+  --primary-color: #0b2545;
+  --secondary-color: #06152e;
+  --accent-color: #d4af37;
+  --text-color: #ffffff;
+  --primary-light: #f5f7fa;
+  --text-dark-color: #0f172a;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0b2545;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header span {
+  color: #d4af37;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #d4af37
+}
+
+.cta-btn {
+    background-color: #d4af37;
+    color: #0b2545;
+    padding: .4em .8em;
+    font-weight: bold;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background-color: #06152e;
+    color: #d4af37;
+}
