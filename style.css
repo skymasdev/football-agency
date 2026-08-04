@@ -8,7 +8,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 0; 
   padding: 0;
   box-sizing: border-box;
 }
@@ -73,12 +73,13 @@ nav a:hover {
 }
 
 main {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
 section#hero {
     display: flex;
+    height: 90vh;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -94,16 +95,20 @@ section#hero {
   }
   
   #hero h1 span {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     font-weight: 900;
     color: #D4AF37;
     line-height: 1.2;
   }
   
   #hero p {
-    font-size: 1.125rem;
+    font-size: 2rem;
     color: #FFFFFF;
-    max-width: 600px;
+    max-width: 1000px;
     line-height: 1.8;
     opacity: 0.85;
+  }
+
+  @media screen {
+    
   }
